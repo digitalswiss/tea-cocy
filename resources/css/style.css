@@ -1,0 +1,114 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+header {
+    width: 1200px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    top: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;        
+}
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+        nav span {
+    display: inline-block;
+    padding: 20px 10px;
+  
+    }
+a {
+    text-decoration: unterline;
+    color: seashell
+}
+h2 {
+    font-weight: bold;
+}
+#logo {
+    height: 50px;
+    padding-left: 10px
+}
+#mission {
+    width: 1200px;
+    height: 700px;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 69px;
+}
+#missiontext {
+    width: 1200px;
+    height: 150px;
+    background-color: black;
+    text-align: center;    
+}
+#tea {
+    width: 1200px;
+    text-align: center;    
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 100px; 
+}
+
+.pic {
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+.container2 {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    text-align: center;
+    display: flex;
+    flex-flow:  row wrap;
+    width: 1200px;
+    height: 500px;
+    justify-content:space-around;
+    align-items: center
+}
+.title {
+    width: 300px;
+    height: 30px;
+    margin: 0px 400px;
+}
+.location {
+    text-align: center;
+    margin: 15px 20px;
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    opacity: 1;
+}
+.contact {
+    height: 200px;
+    width: 1200px;
+    text-align: center;
+}
+.copyright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
